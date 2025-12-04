@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Demo UI</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+        header {
+            background: #1e293b;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            color: #38bdf8;
+        }
+        .container {
+            width: 85%;
+            max-width: 900px;
+            margin: 60px auto;
+            text-align: center;
+        }
+        .card {
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+        }
+        button {
+            background: #38bdf8;
+            color: #0f172a;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            margin-top: 25px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #0ea5e9;
+        }
+    </style>
+</head>
+
+<body>
+    <header>🚀 Welcome to My Tomcat Frontend</header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Simple Deployment UI</h2>
+            <p>This app is served through Tomcat using Docker. If you're seeing this,
+                your container didn't completely burn down — good job.</p>
+
+            <button onclick="alert('Relax. Backend not built yet 😏')">Click Me</button>
+        </div>
+    </div>
+</body>
+</html>
